@@ -63,8 +63,7 @@ class User
     // 問題2
     function getOlder()
     {
-        if ($this->age <= 99)
-            return $this->age = 99;
-        $this->age + 5;
+        if ($this->age < 99)
+            $this->age++;
     }
 }
